@@ -3,7 +3,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, Car
 
 const Example = (props) => {
   return (
-    <CardDeck>
+    <CardDeck style={{ margin: '1rem' }}>
       <Card>
         <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
         <CardBody>
@@ -31,6 +31,7 @@ const Example = (props) => {
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <Button>Button</Button>
           <Button>Button</Button>
         </CardBody>
       </Card>
