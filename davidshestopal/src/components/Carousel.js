@@ -36,7 +36,7 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: 'Pokemon Card Fetcher',
-          subTitle: 'This is a Pokemon Card Fetcher built using React.js and CSS !',
+          subTitle: 'This is a Pokemon Card Fetcher built using React.js and CSS',
           imgSrc: poki,
           link: 'https://react-redux-app-2.now.sh',
 

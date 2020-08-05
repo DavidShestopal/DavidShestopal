@@ -1,14 +1,15 @@
 import React from 'react';
-import Jumbotron from '../components/Jumbotron';
+
+import Hero from '../components/Hero';
 import Carousel from '../components/Carousel';
 
-export default function HomePage() {
+function HomePage(props) {
   return (
     <div>
-      <Jumbotron />
+      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Carousel />
-
-      <center> </center>
     </div>
   );
 }
+
+export default HomePage;
