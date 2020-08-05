@@ -3,8 +3,8 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, Car
 
 const Example = (props) => {
   return (
-    <CardDeck style={{ margin: '1rem' }}>
-      <Card>
+    <CardDeck style={{ marginTop: '8rem', marginLeft: '1rem', marginRight: '1rem' }}>
+      <Card style={{ padding: '2rem' }}>
         <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
@@ -16,26 +16,17 @@ const Example = (props) => {
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle></CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      <Card>
+
+      <Card style={{ padding: '2rem' }}>
         <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
           <Button>Button</Button>
-          <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
+      <Card style={{ padding: '2rem' }}>
         <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
@@ -52,7 +43,3 @@ const Example = (props) => {
 };
 
 export default Example;
-
-{
-  /* <a href="mailto: dshestopal@gmail.com">dshestopal@gmail.com</a> */
-}

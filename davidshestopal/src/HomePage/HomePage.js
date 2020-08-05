@@ -6,7 +6,9 @@ export default function HomePage() {
   return (
     <div>
       <Jumbotron />
+
       <Cards />
+      <center> </center>
     </div>
   );
 }

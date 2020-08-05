@@ -37,6 +37,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <HomePage />} />
           <Route path="/about" render={() => <AboutPage />} />
           <Route path="/contact" render={() => <ContactPage />} />
+
           <hr />
           <center>
             {' '}
