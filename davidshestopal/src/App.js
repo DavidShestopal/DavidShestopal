@@ -4,7 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-import Jumbotron from './components/Jumbotron';
+
+import Footer from './components/Footer';
+import HomePage from './HomePage/HomePage';
+import AboutPage from './AboutPage/AboutPage';
+import ContactPage from './Contact/Contact';
 
 class App extends React.Component {
   render() {
@@ -12,7 +16,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand style={{ color: 'black' }}>David Shestopal</Navbar.Brand>
+            <Navbar.Brand>David Shestopal</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -29,8 +33,15 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Jumbotron />
+
+          <Route path="/" exact render={() => <HomePage />} />
+          <Route path="/about" render={() => <AboutPage />} />
+          <Route path="/contact" render={() => <ContactPage />} />
           <hr />
+          <center>
+            {' '}
+            <Footer />
+          </center>
         </Container>
       </Router>
     );

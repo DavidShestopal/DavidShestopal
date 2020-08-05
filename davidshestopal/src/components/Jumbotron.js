@@ -2,7 +2,7 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
-class Jumbotronone extends React.Component {
+class JumbotronOne extends React.Component {
   render() {
     return (
       <div>
@@ -17,4 +17,4 @@ class Jumbotronone extends React.Component {
   }
 }
 
-export default Jumbotronone;
+export default JumbotronOne;
