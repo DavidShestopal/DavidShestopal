@@ -4,7 +4,10 @@ import CardInfo from '../components/CardInfo';
 
 function Card(props) {
   return (
-    <div className="d-inline-block g-card" style={{ padding: '20px' }} onClick={(e) => props.click(props.item)}>
+    <div
+      className="d-inline-block g-card"
+      style={{ padding: '20px', marginBottom: '40px' }}
+      onClick={(e) => props.click(props.item)}>
       <img
         className="g-card-image"
         style={{ width: '320px', borderRadius: '16px' }}
