@@ -7,7 +7,7 @@ function Card(props) {
     <div className="d-inline-block g-card" style={{ padding: '20px' }} onClick={(e) => props.click(props.item)}>
       <img
         className="g-card-image"
-        style={{ width: '300px', borderRadius: '16px' }}
+        style={{ width: '320px', borderRadius: '16px' }}
         src={props.item.imgSrc}
         alt={props.item.imgSrc}
       />
