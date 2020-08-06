@@ -8,7 +8,9 @@ function Footer() {
     <footer className="mt-5">
       <center>
         {' '}
-        <p style={{ marginBottom: '1rem' }}> Copyright © 2020 -David Shestopal. All Rights Reserved</p>
+        <p>
+          Copyright &copy; <script>document.write(new Date().getFullYear())</script> David Shestopal All Rights Reserved
+        </p>
       </center>
     </footer>
   );
