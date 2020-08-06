@@ -6,11 +6,11 @@ function CardInfo(props) {
 
   return (
     <animated.div className="g-card-info" style={style}>
-      <p className="g-card-title" style={{ fontWeight: 'bold' }}>
+      <p className="g-card-title" style={{ fontWeight: 'bold', marginTop: '20px' }}>
         {props.title}
       </p>
       <p className="g-card-sub-title">{props.subTitle}</p>
-      <a href={props.link} target="_blank" rel="noopener noreferrer" className="link">
+      <a href={props.link} target="_blank" rel="noopener noreferrer" className="link" style={{ fontWeight: 'bold' }}>
         View
       </a>
 

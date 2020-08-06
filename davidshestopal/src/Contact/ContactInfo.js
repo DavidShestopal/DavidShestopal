@@ -2,24 +2,12 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import {
-  Card,
-  Button,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardDeck,
-  CardSubtitle,
-  Jumbotron,
-  Container,
-  CardBody,
-} from 'reactstrap';
+import { Card, CardDeck, Jumbotron, Container, CardBody } from 'reactstrap';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
   root: {

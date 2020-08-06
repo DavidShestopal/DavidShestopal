@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactInfo from './ContactInfo';
-import Hero from '../components/Hero';
 
 class ContactPage extends React.Component {
   render() {
