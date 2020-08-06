@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../components/Card';
+import Card from './Card';
 
 import david from '../assets/images/david.jpg';
 import plantwise from '../assets/images/gameoflife.png';
