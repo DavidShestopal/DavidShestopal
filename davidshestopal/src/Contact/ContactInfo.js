@@ -41,11 +41,11 @@ export default function InsetDividers() {
             <ListItem>
               <ListItemAvatar>
                 <a href="https://www.linkedin.com/in/david-shestopal-4154731a1">
-                  <LinkedInIcon style={{ fontSize: '100px', marginRight: '2rem' }} />
+                  <LinkedInIcon style={{ fontSize: '100px', marginRight: '2rem', color: 'black' }} />
                 </a>
               </ListItemAvatar>
               <a href="https://www.linkedin.com/in/david-shestopal-4154731a1">
-                <p style={{ fontSize: '2rem' }}>LinkedIn</p>
+                <p style={{ fontSize: '2rem', color: 'black' }}>LinkedIn</p>
               </a>
             </ListItem>
             <hr />
@@ -53,11 +53,11 @@ export default function InsetDividers() {
             <ListItem>
               <ListItemAvatar>
                 <a href="mailto:dshestopal@yahoo.com">
-                  <MailIcon style={{ fontSize: '100px', paddingRight: '1rem', marginRight: '2rem' }} />
+                  <MailIcon style={{ fontSize: '100px', paddingRight: '1rem', marginRight: '2rem', color: 'black' }} />
                 </a>
               </ListItemAvatar>
               <a href="mailto:dshestopal@yahoo.com">
-                <p style={{ fontSize: '2rem' }}>Email</p>
+                <p style={{ fontSize: '2rem', color: 'black' }}>Email</p>
               </a>
             </ListItem>
             <hr />
@@ -65,12 +65,14 @@ export default function InsetDividers() {
               <ListItemAvatar>
                 <a href="https://github.com/DavidShestopal">
                   {' '}
-                  <GitHubIcon style={{ fontSize: '100px', paddingRight: '1rem', marginRight: '2rem' }} />
+                  <GitHubIcon
+                    style={{ fontSize: '100px', paddingRight: '1rem', marginRight: '2rem', color: 'black' }}
+                  />
                 </a>
               </ListItemAvatar>
               <a href="https://github.com/DavidShestopal">
                 {' '}
-                <p style={{ fontSize: '2rem' }}>Github</p>
+                <p style={{ fontSize: '2rem', color: 'black' }}>Github</p>
               </a>
             </ListItem>
           </List>
